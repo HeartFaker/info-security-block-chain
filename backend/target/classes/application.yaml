@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://1.15.170.195:3306/blockchain
+    username: blockchain
+    password: eXffrj4YHTXiZiXC
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+server:
+  port: 8080
